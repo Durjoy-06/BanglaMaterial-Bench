@@ -2,7 +2,7 @@ image_id,category_id,source_type,source_url,creator_or_photographer,license_name
 ,,,,,,,,,,,,
 ,,,,DOM(Domestic),,,,,,,,
 ,,,,,,,,,,,,
-DOM_001,DOM,web,https://upload.wikimedia.org/wikipedia/commons/4/4c/Boti_%28Instrument%29.jpg?utm_source=bn.wikipedia.org&utm_campaign=index&utm_content=original,Auyon,CC BY-SA 3.0 Unported,https://creativecommons.org/licenses/by-sa/3.0/,BD,,,collected,Creator: Auyon; license attribution required; share-alike terms apply.,10/28/2026
+DOM_001,DOM,web,https://upload.wikimedia.org/wikipedia/commons/4/4c/Boti_%28Instrument%29.jpg?utm_source=bn.wikipedia.org&utm_campaign=index&utm_content=original,Auyon,CC BY-SA 3.0 Unported,https://creativecommons.org/licenses/by-sa/3.0/,BD,,,collected,Creator: Auyon; license attribution required; share-alike terms apply.,27/10/2026
 DOM_002,DOM,web,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Boti_Bangladesh.jpg/960px-Boti_Bangladesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110510053139,Bellayet ,"CC BY-SA 3.0, via Wikimedia Commons",https://commons.wikimedia.org/wiki/File:Boti_Bangladesh.jpg,BD,,,collected,,same
 DOM_003,DOM,FB,https://scontent.fdac31-2.fna.fbcdn.net/v/t39.99422-6/739243713_1746669046341265_2498940658147900763_n.png?stp=dst-jpg_tt6&cstp=mx2048x2006&ctp=s2048x2006&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGDaZB6UHQKdbZfd3PkcTl1wjxcl1POo8zCPFyXU86jzH4u_7rCg0_nbOEMFqlgjU2FcEyBS_1lv8sUkJpQ04ya&_nc_ohc=XfRCS6Fneh4Q7kNvwGpQPye&_nc_oc=AdpDK4eQpuDah8A2ilxcvtBNGrWdE4R_xVFVVbuAuHJDrOvDGls_WTZ9VACAB3zT7V0&_nc_zt=14&_nc_ht=scontent.fdac31-2.fna&_nc_gid=5432zS0SQEsYKvhCg3CWYg&_nc_ss=7b2a8&oh=00_AQM8pAOyQUPUJo00oEvj9iSzfDNJkRMNNiEdACaFTdryiw&oe=6AE6A6F4,Eat Your History,Unknown - permission not verified,N/A,BD,,,collected,,same
 DOM_004,DOM,web,https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Boti_with_coconut_grater.JPG/500px-Boti_with_coconut_grater.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120309123608,Amartyabag ,CC BY-SA 3.0,https://commons.wikimedia.org/wiki/File:Boti_with_coconut_grater.JPG,BD,,,collected,,same
@@ -12,13 +12,13 @@ DOM_007,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,Sylhet,,,collecte
 DOM_008,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,Sylhet,,,collected,Original photo taken by dataset team,same
 DOM_009,DOM,FB,https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/841816094_1425455929561957_9194178477223640954_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s1200x1600&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeELIb2OgCiCWzacvOY6yV0SET5AW2g5T6kRPkBbaDlPqUAk3VmqpJhPPth22M2WcrnRUTytR4sbpCv6spcsaVS0&_nc_ohc=e4q9FBGWHZMQ7kNvwHwnXj_&_nc_oc=Adq8uowo8HVZicf2ilEP_ZtQrG2GM8k2mNW2OaCP7t0PIvvosUIxyvDMA6Rzt5wwEg4&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=mmdRGM_Zq51qdagfodmmuw&_nc_ss=7b2a8&oh=00_AQTnvcgW9HoQNBF_Om18JzCsDVmTvmrUtGLiO6WNk7mjRw&oe=6AE749A8,Unknown ,All rights reserved,N/A,Dhaka,,,collected,,same
 DOM_010,DOM,Web,https://pin.it/6Ja6NyIKP,Unknown ,Unknown - permission not verified,N/A,Unknown,,,collected,Found on Pinterest; original source and permission need verification,same
-DOM_011,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,Dhaka,,,collected,,
-DOM_012,DOM,Mine,original photo,Koushik,All rights reserved,N/A,Sylhet,,,collected,,
-DOM_013,DOM,Mine,original photo,Koushik,All rights reserved,N/A,BD,,,collected,,
-DOM_014,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,
-DOM_015,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,
+DOM_011,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,Dhaka,,,collected,,same
+DOM_012,DOM,Mine,original photo,Koushik,All rights reserved,N/A,Sylhet,,,collected,,same
+DOM_013,DOM,Mine,original photo,Koushik,All rights reserved,N/A,BD,,,collected,,same
+DOM_014,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,same
+DOM_015,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,same
 DOM_016,DOM,FB,https://www.facebook.com/share/p/1C5TaiTBx6/,Rajesh Das,All rights reserved,N/A,BD,,,collected,,same
-DOM_017,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,
+DOM_017,DOM,Mine,original photo,Durjoy,All rights reserved,N/A,BD,,,collected,,same
 DOM_018,DOM,FB,https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/313222125_213109507727198_4552777549487671214_n.jpg?stp=dst-jpg_tt6&cstp=mx540x405&ctp=s540x405&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHC4vZpYYBeJtdpvlCm5qZRMktvL8VyTSYyS28vxXJNJrY5Tss2TDfXpBIF1ECxomXDbkrvjbZLm2pHOsDAWKIb&_nc_ohc=lFD_mSxSGDAQ7kNvwFUonwZ&_nc_oc=AdqVlIcNlaSmGZNv6KH0otbG9zYuofYQVtPsX4bF_kwX_hX5QIXC6fR8tLvjc8dL-m8&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=qrPPbk0SxCpVH6i9qD6rjg&_nc_ss=7b2a8&oh=00_AQR9_Rq7eLdRfedGS7gq75TFuRUYQJYUFKcizrGlAg0YWg&oe=6AE74C1C,Unknown,Unknown - permission not verified,https://www.facebook.com/share/1CQtqP2w4J/,BD,,,collected,,same
 DOM_019,DOM,FB,https://scontent.fdac31-1.fna.fbcdn.net/v/t1.6435-9/118813872_3300255543396405_5182576553809955880_n.jpg?stp=dst-jpg_tt6&cstp=mx1632x918&ctp=s1632x918&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=33274f&_nc_eui2=AeFmpZyveUugH6js2ZEiuyIm5ffEZOOrsLnl98Rk46uwue369Gg9_zpa365nx-n3mqTG21yPEKa4JrVAJjEu_dpj&_nc_ohc=MEMr-vYdapYQ7kNvwFmGtfK&_nc_oc=AdpeoxJ7WVyO0XOnnWxHP6YGLqBXQl_D5r-Ts_4bqZ2YzFDDwdDkYYxWzLXKZh_V8Is&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=UpuPLMvXG1BghdvpMEiYow&_nc_ss=7b2a8&oh=00_AQQX9FO1l44wWuE6mguigS5RZx0Xh7wJVAbs8Xf9k_Vw3Q&oe=6B08F427,Unknown,Unknown - permission not verified,N/A,BD,,,collected,,same
 DOM_020,DOM,FB,https://scontent.fdac31-2.fna.fbcdn.net/v/t1.6435-9/31124417_1636108823141408_7473661094142148608_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1280&ctp=s1920x1280&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeHpiFR0QvpoFimyGieXWd4BqGntK1fC4Kyoae0rV8LgrCKcESYNgZquiA0vm17oEOltSFJlJgAT5xoPen9vP8EJ&_nc_ohc=WrZFO2660CEQ7kNvwFTizQL&_nc_oc=AdrdxDa94b4MC_KdmKlau97YXoZXGfzsmomfzmOAWl7zavED1xKuy-O0e-wurYdPgbg&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=cfE30LLMaIE5RkDmBC_nwQ&_nc_ss=7b2a8&oh=00_AQTsSMVhw_Xzp1ddcqjXuklsnfMVE0nGHEaoCNO2wwEKZQ&oe=6B08F9C5,Unknown,Unknown - permission not verified,N/A,BD,,,collected,,same
@@ -38,7 +38,7 @@ DOM_030,DOM,Daraz,https://www.daraz.com.bd/products/stone-mortar-and-pestle-for-
 ,,,,,,,,,,,,
 ,,TEX (Textiles),,,,,,,,,,
 ,,,,,,,,,,,,
-TEX_001,TEX,Web,https://www.pinterest.com/pin/1140466305651668847/,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,10/29/2026
+TEX_001,TEX,Web,https://www.pinterest.com/pin/1140466305651668847/,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,29/10/2026
 TEX_002,TEX,Web,https://www.pinterest.com/pin/1042442644994389361/,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
 TEX_003,TEX,FB,https://www.facebook.com/share/1Ht7tUWnAt/,Tabina's Collections,Unknown - permission not verified,"	N/A",Dhaka,,,collected,,same
 TEX_004,TEX,FB,https://www.facebook.com/share/19rgRwkpZE/,Tabina's Collections,Unknown - permission not verified,"	N/A",Dhaka,,,collected,,same
@@ -53,21 +53,21 @@ TEX_012,TEX,FB,https://www.facebook.com/share/1CLuLn1DNC/,Bangalir saaj,Unknown 
 TEX_013,TEX,FB,https://www.facebook.com/share/1CA52Gmhhq/,Bangalir saaj,Unknown - permission not verified,"	N/A",Dhaka,,,collected,,same
 TEX_014,TEX,FB,https://www.facebook.com/share/1CMsUXkruy/,Bangalir saaj,Unknown - permission not verified,"	N/A",Dhaka,,,collected,,same
 TEX_015,TEX,FB,https://www.facebook.com/share/19VAgDmM4j/,Bangalir saaj,Unknown - permission not verified,"	N/A",Dhaka,,,collected,,same
-TEX_016,TEX,,,,,,,,,collected,,
-TEX_017,TEX,,,,,,,,,collected,,
-TEX_018,TEX,,,,,,,,,collected,,
-TEX_019,TEX,,,,,,,,,collected,,
-TEX_020,TEX,,,,,,,,,collected,,
-TEX_021,TEX,,,,,,,,,collected,,
-TEX_022,TEX,,,,,,,,,collected,,
-TEX_023,TEX,,,,,,,,,collected,,
-TEX_024,TEX,,,,,,,,,collected,,
-TEX_025,TEX,,,,,,,,,collected,,
-TEX_026,TEX,,,,,,,,,collected,,
-TEX_027,TEX,,,,,,,,,collected,,
-TEX_028,TEX,,,,,,,,,collected,,
-TEX_029,TEX,,,,,,,,,collected,,
-TEX_030,TEX,,,,,,,,,collected,,
+TEX_016,TEX,Web,https://pin.it/5uCpieSXM,Unknown,Unknown - permission not verified,"	N/A",Rajshahi,,,collected,,31/10/2026
+TEX_017,TEX,Web,https://pin.it/PnR0x1XgF,Unknown,Unknown - permission not verified,"	N/A",Rajshahi,,,collected,,same
+TEX_018,TEX,Web,https://commons.wikimedia.org/wiki/File:Embroidery_bangla.jpg,Mp3moment,CC BY-SA 4.0,https://creativecommons.org/licenses/by-sa/4.0/,BD,,,collected,,same
+TEX_019,TEX,Web,https://commons.wikimedia.org/wiki/File:Kantha_(Quilt)_LACMA_AC1994.131.1.jpg,Lacma,N/A,"	N/A",BD,,,collected,,same
+TEX_020,TEX,Web,https://pin.it/1XebV9Rsk,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_021,TEX,Web,https://pin.it/7bBkQNcNr,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_022,TEX,Web,https://pin.it/1F7E6ls0S,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_023,TEX,FB,https://www.facebook.com/share/1EdGqK9axu/,Thread&Blooms,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_024,TEX,FB,https://www.facebook.com/share/1E2F7zd4y1/,Runa Begum,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_025,TEX,FB,https://www.facebook.com/share/18fKhK2HDq/,Runa Begum,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_026,TEX,FB,https://www.facebook.com/share/17zv5s2i1t/,Suisuta Handmade,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_027,TEX,FB,https://www.facebook.com/share/1Dfd97XQxE/,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_028,TEX,FB,https://www.facebook.com/share/p/1YboUuetAG/,Nakshi Chowa,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_029,TEX,FB,https://www.facebook.com/share/p/1C3cV689uh/,Nakshi Chowa,Unknown - permission not verified,"	N/A",BD,,,collected,,same
+TEX_030,TEX,Web,https://pin.it/2XRaf2hO7,Unknown,Unknown - permission not verified,"	N/A",BD,,,collected,,same
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
