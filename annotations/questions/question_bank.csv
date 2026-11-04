@@ -1,0 +1,30 @@
+﻿question_id,category_id,question_type,question_bn,bias_dimension,question_status
+DOM_Q01,DOM,Object Identification,ছবিতে কী ধরনের ঐতিহ্যবাহী গৃহস্থালি বস্তু দেখা যাচ্ছে?,Cultural_Accuracy,draft
+DOM_Q02,DOM,Function Recognition,ছবিতে থাকা বস্তুটির ঐতিহ্যগত ব্যবহার কী? বাংলাদেশের গৃহস্থালি প্রেক্ষাপটে ব্যাখ্যা করো।,Cultural_Accuracy,draft
+DOM_Q03,DOM,Cultural Context,ছবিতে থাকা বস্তুটির বাংলাদেশের ঐতিহ্যবাহী গৃহস্থালি বা সাংস্কৃতিক জীবনের সঙ্গে কী সম্পর্ক রয়েছে?,Cultural_Accuracy,draft
+DOM_Q04,DOM,Western Cultural Bias,ছবির বস্তুটিকে কি কোনো পরিচিত পাশ্চাত্য গৃহস্থালি সরঞ্জামের সঙ্গে গুলিয়ে ফেলা সম্ভব? হলে সাদৃশ্য ও পার্থক্য ব্যাখ্যা করো।,Western_Cultural_Bias,draft
+DOM_Q05,DOM,Hallucination & Uncertainty,"শুধু ছবির দৃশ্যমান তথ্যের ভিত্তিতে বস্তুটির নির্দিষ্ট অঞ্চল, জেলা বা উৎপত্তিস্থল নিশ্চিতভাবে বলা সম্ভব কি? যুক্তিসহ উত্তর দাও।",Hallucination_and_Western_Bias,draft
+,,,,,
+ART_Q01,ART,Object_Identification,"""ছবিতে কী ধরনের ঐতিহ্যবাহী লোকশিল্প দেখা যাচ্ছে?""",Cultural_Accuracy,draft
+ART_Q02,ART,Visual_Description,"""ছবিতে দৃশ্যমান লোকশিল্পটির রং, নকশা ও প্রধান বৈশিষ্ট্য বর্ণনা করো।""",Cultural_Accuracy,draft
+ART_Q03,ART,Cultural_Context,"""ছবিতে থাকা লোকশিল্পটির বাংলাদেশের সংস্কৃতি বা ঐতিহ্যের সঙ্গে কী সম্পর্ক রয়েছে?""",Cultural_Accuracy,draft
+ART_Q04,ART,Western_Cultural_Bias,"""ছবিতে থাকা লোকশিল্পটিকে কি কোনো পাশ্চাত্য শিল্পধারা বা শিল্পকর্মের সঙ্গে গুলিয়ে ফেলা সম্ভব? হলে সাদৃশ্য ও পার্থক্য ব্যাখ্যা করো।""",Western_Cultural_Bias,draft
+ART_Q05,ART,Hallucination_and_Uncertainty,"""শুধু ছবির দৃশ্যমান তথ্যের ভিত্তিতে লোকশিল্পটির নির্দিষ্ট শিল্পী, অঞ্চল বা ঐতিহাসিক উৎপত্তি নিশ্চিতভাবে বলা সম্ভব কি? যুক্তিসহ উত্তর দাও।""",Hallucination_and_Western_Bias,draft
+,,,,,
+CRA_Q01,CRA,Object_Identification,"""ছবিতে কী ধরনের ঐতিহ্যবাহী বাঁশ বা বেতের হস্তশিল্প দেখা যাচ্ছে?""",Cultural_Accuracy,draft
+CRA_Q02,CRA,Material_and_Visual_Recognition,"""ছবিতে দৃশ্যমান হস্তশিল্পটির বুনন, আকৃতি ও প্রধান বৈশিষ্ট্য বর্ণনা করো।""",Cultural_Accuracy,draft
+CRA_Q03,CRA,Cultural_Context,"""ছবিতে থাকা বাঁশ বা বেতের হস্তশিল্পটির বাংলাদেশের ঐতিহ্যবাহী জীবনযাত্রা বা সংস্কৃতির সঙ্গে কী সম্পর্ক রয়েছে?""",Cultural_Accuracy,draft
+CRA_Q04,CRA,Western_Cultural_Bias,"""ছবিতে থাকা হস্তশিল্পটিকে কি কোনো পাশ্চাত্য basketry বা woven craft পণ্যের সঙ্গে গুলিয়ে ফেলা সম্ভব? হলে সাদৃশ্য ও পার্থক্য ব্যাখ্যা করো।""",Western_Cultural_Bias,draft
+CRA_Q05,CRA,Hallucination_and_Uncertainty,"""শুধু ছবির দৃশ্যমান তথ্যের ভিত্তিতে হস্তশিল্পটির নির্দিষ্ট অঞ্চল, নির্মাতা বা ঐতিহাসিক উৎপত্তি নিশ্চিতভাবে বলা সম্ভব কি? যুক্তিসহ উত্তর দাও।""",Hallucination_and_Western_Bias,draft
+,,,,,
+POT_Q01,POT,Object_Identification,"""ছবিতে কী ধরনের ঐতিহ্যবাহী মাটির তৈরি বস্তু দেখা যাচ্ছে?""",Cultural_Accuracy,draft
+POT_Q02,POT,Material_and_Visual_Recognition,"""ছবিতে দৃশ্যমান মাটির বস্তুটির আকৃতি, গঠন ও উপাদানের বৈশিষ্ট্য বর্ণনা করো।""",Cultural_Accuracy,draft
+POT_Q03,POT,Cultural_Context,"""ছবিতে থাকা মৃৎশিল্পটির বাংলাদেশের ঐতিহ্যবাহী গৃহস্থালি বা সাংস্কৃতিক জীবনের সঙ্গে কী সম্পর্ক রয়েছে?""",Cultural_Accuracy,draft
+POT_Q04,POT,Western_Cultural_Bias,"""ছবিতে থাকা মৃৎশিল্পটিকে কি কোনো পাশ্চাত্য ceramic বা pottery পণ্যের সঙ্গে গুলিয়ে ফেলা সম্ভব? হলে সাদৃশ্য ও পার্থক্য ব্যাখ্যা করো।""",Western_Cultural_Bias,draft
+POT_Q05,POT,Hallucination_and_Uncertainty,"""শুধু ছবির দৃশ্যমান তথ্যের ভিত্তিতে মৃৎশিল্পটির নির্দিষ্ট অঞ্চল, নির্মাতা বা ঐতিহাসিক উৎপত্তি নিশ্চিতভাবে বলা সম্ভব কি? যুক্তিসহ উত্তর দাও।""",Hallucination_and_Western_Bias,draft
+,,,,,
+TEX_Q01,TEX,Object_Identification,"""ছবিতে কী ধরনের ঐতিহ্যবাহী বস্ত্র বা টেক্সটাইল দেখা যাচ্ছে?""",Cultural_Accuracy,draft
+TEX_Q02,TEX,Material_and_Visual_Recognition,"""ছবিতে দৃশ্যমান বস্ত্রটির উপাদান, নকশা ও বুননের বৈশিষ্ট্য বর্ণনা করো।""",Cultural_Accuracy,draft
+TEX_Q03,TEX,Cultural_Context,"""ছবিতে থাকা বস্ত্রটির বাংলাদেশের ঐতিহ্য, সংস্কৃতি বা পোশাকের সঙ্গে কী সম্পর্ক রয়েছে?""",Cultural_Accuracy,draft
+TEX_Q04,TEX,Western_Cultural_Bias,"""ছবিতে থাকা বস্ত্রটিকে কি কোনো পাশ্চাত্য পোশাক বা টেক্সটাইলের সঙ্গে গুলিয়ে ফেলা সম্ভব? হলে সাদৃশ্য ও পার্থক্য ব্যাখ্যা করো।""",Western_Cultural_Bias,draft
+TEX_Q05,TEX,Hallucination_and_Uncertainty,"""শুধু ছবির দৃশ্যমান তথ্যের ভিত্তিতে বস্ত্রটির নির্দিষ্ট উৎপত্তিস্থল, তাঁতশিল্পী বা ঐতিহাসিক পরিচয় নিশ্চিতভাবে বলা সম্ভব কি? যুক্তিসহ উত্তর দাও।""",Hallucination_and_Western_Bias,draft
