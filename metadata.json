@@ -1,0 +1,13 @@
+{
+  "dataset_name": "BanglaMaterial-Bench",
+  "version": "pilot-v0.1",
+  "schema_note": "Template only. Add one object per accepted image; do not treat empty fields as verified.",
+  "category_ids": {
+    "DOM": "Traditional domestic tools",
+    "TEX": "Textiles and weaving",
+    "ART": "Folk and popular art",
+    "POT": "Pottery and clay household objects",
+    "CRA": "Craft and material artifacts"
+  },
+  "images": []
+}
