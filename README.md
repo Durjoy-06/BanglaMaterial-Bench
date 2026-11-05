@@ -1,60 +1,198 @@
-# BanglaMaterial-Bench — Pilot v0.1
+# 🇧🇩 BanglaMaterial-Bench
 
-এই template-টি বাংলাদেশি material culture নিয়ে একটি ছোট, provenance-aware VLM evaluation dataset তৈরির জন্য।
+### Evaluating Cultural Hallucination and Western Cultural Bias in Vision-Language Models on Bangladeshi Material Culture
 
-## শুরু করার নিয়ম
+![Research](https://img.shields.io/badge/Research-In%20Progress-yellow)
+![Images](https://img.shields.io/badge/Images-150-blue)
+![Categories](https://img.shields.io/badge/Categories-5-green)
+![Questions](https://img.shields.io/badge/Questions-25-orange)
 
-1. প্রথমে `docs/collection_log.csv`-এ সম্ভাব্য ছবির উৎস নথিভুক্ত করুন।
-2. অনুমতি ও license যাচাইয়ের আগে কোনো ছবি dataset-এ অন্তর্ভুক্ত করবেন না।
-3. গ্রহণ করা ছবির ID দিন: `BMB_DOM_0001`, `BMB_TEX_0001` ইত্যাদি।
-4. মূল ছবি অপরিবর্তিতভাবে `data/images/raw/{web|local}/{CATEGORY}/`-এ রাখুন।
-5. ছবির metadata `metadata.csv` এবং `metadata.json`—দুই জায়গাতেই রাখুন।
-6. প্রশ্ন ও ground truth `annotations/questions/questions.csv`-এ রাখুন।
-7. দ্বিতীয় reviewer-এর মতামত `annotations/reviews/review_log.csv`-এ রাখুন।
-8. Pilot শেষ হলে image-level ভিত্তিতে train/dev/test split নয়, প্রথমে held-out test split নির্ধারণ করুন। একই মূল ছবি, crop বা near-duplicate যেন একাধিক split-এ না যায়।
+## 📖 About
 
-## Category IDs
+**BanglaMaterial-Bench** is a research project focused on evaluating Vision-Language Models (VLMs) on Bangladeshi material culture.
 
-- `DOM`: Traditional domestic tools
-- `TEX`: Textiles and weaving
-- `ART`: Folk/popular art
-- `POT`: Pottery and clay household objects
-- `CRA`: Craft and material artifacts
+The project investigates how effectively VLMs recognize, describe, and interpret culturally specific objects from Bangladesh, with particular attention to cultural hallucination, cultural misidentification, and Western cultural bias.
 
-## Image ID format
+The benchmark aims to contribute to culturally grounded multimodal AI evaluation by focusing on Bangladeshi cultural objects and traditional heritage.
 
-`BMB_{CATEGORY}_{4-digit-number}`
+## 🎯 Research Objectives
 
-উদাহরণ: `BMB_DOM_0001`
+- Evaluate VLMs' ability to identify Bangladeshi cultural objects.
+- Investigate cultural hallucinations in model-generated responses.
+- Examine Western cultural substitution and cultural default.
+- Evaluate cultural context and traditional function recognition.
+- Explore training-free mitigation strategies for culturally inaccurate responses.
 
-Question ID format: `{IMAGE_ID}_Q01`
+## 🔬 Research Questions
 
-## Provenance ও evidence
+- **RQ1:** How accurately can VLMs identify and describe Bangladeshi material culture?
+- **RQ2:** What types of cultural hallucinations occur when VLMs interpret Bangladeshi cultural images?
+- **RQ3:** To what extent do VLMs exhibit Western cultural substitution or cultural default?
+- **RQ4:** Can training-free mitigation strategies improve culturally grounded responses?
 
-- `source_type`: `web` অথবা `local`
-- Web ছবির ক্ষেত্রে মূল URL, creator, license name/URL এবং access date লিখুন।
-- Local ছবির ক্ষেত্রে photographer/collector code, capture date, consent status ও location granularity লিখুন।
-- সাংস্কৃতিক পরিচয় শুধু filename বা search result দেখে নিশ্চিত করবেন না।
-- `expert_verified=true` শুধু তখনই দিন যখন উপযুক্ত জ্ঞানসম্পন্ন reviewer সত্যিই যাচাই করেছেন।
-- কোনো ছবির license/consent অস্পষ্ট হলে `status=hold` রাখুন; public release-এ দেবেন না।
-- ব্যক্তির মুখ, নাম, বাড়ি বা অন্য সংবেদনশীল তথ্য থাকলে privacy ও consent বিবেচনা করুন।
+*These research questions are provisional and may be refined during the literature review.*
 
-## প্রশ্ন তৈরির নিয়ম
+## 📊 Dataset Overview
 
-প্রতি ছবিতে 3–5টি প্রশ্ন দিয়ে শুরু করুন:
-1. Object identity
-2. Visible attributes
-3. Function/use (প্রয়োজন হলে external evidence)
-4. Parts/spatial relationships
-5. Cultural interpretation (শুধু যথেষ্ট প্রমাণ থাকলে)
+The current dataset contains **150 images** across five categories.
 
-প্রতিটি প্রশ্নে evidence type লিখুন: `visual`, `external_cultural`, বা `mixed`।
-একাধিক গ্রহণযোগ্য উত্তর থাকলে `acceptable_answers`-এ JSON array হিসেবে রাখুন।
-মডেলের উত্তর পরে দেখে ground truth বদলাবেন না; ground truth আগে নির্ধারণ ও review করুন।
+| Category | Category ID | Images |
+|---|---|---:|
+| Domestic Tools | DOM | 30 |
+| Textiles | TEX | 30 |
+| Folk Art | ART | 30 |
+| Pottery | POT | 30 |
+| Bamboo and Cane Crafts | CRA | 30 |
+| **Total** | | **150** |
 
-## গুরুত্বপূর্ণ সতর্কতা
+### Dataset Characteristics
 
-- এই template কোনো dataset-কে নিজে থেকে expert-verified করে না।
-- উদাহরণস্বরূপ category/name কেবল প্রাথমিক label; প্রতিটি ছবির জন্য যাচাই প্রয়োজন।
-- একই ছবির একাধিক প্রশ্ন independent image sample নয়। ফলাফলে image-level clustering বিবেচনা করুন।
-- Benchmark-এ public test answer প্রকাশ করলে ভবিষ্যৎ evaluation contamination হতে পারে; প্রয়োজনে test labels private রাখুন।
+- Geographic focus: Bangladesh
+- Language: Bengali (Bangla)
+- Data type: Cultural images
+- Task: Image-based cultural question answering
+- Question bank: 25 category-level questions
+- Image metadata: CSV-based
+
+## 🧠 Research Focus
+
+### Cultural Hallucination
+Incorrect or unsupported cultural information generated by a VLM.
+
+### Western Cultural Substitution
+Misidentifying a Bangladeshi cultural object as a familiar Western object.
+
+### Western Cultural Default
+Interpreting Bangladeshi cultural objects primarily through Western cultural assumptions.
+
+An incorrect answer alone does not establish cultural bias. Bias annotations will be grounded in verified cultural information and predefined criteria.
+
+## ❓ Question Bank
+
+The benchmark includes 25 category-level questions, with five questions per category.
+
+The questions cover:
+
+- Object identification
+- Visual description
+- Material and feature recognition
+- Cultural context
+- Western cultural bias probing
+- Hallucination and uncertainty
+
+Questions are written in Bangla to support culturally grounded evaluation.
+
+## 🗂️ Repository Structure
+
+```text
+BanglaMaterial-Bench/
+│
+├── images/
+├── metadata.csv
+│
+├── annotations/
+│   ├── questions/
+│   │   ├── question_bank.csv
+│   │   └── image_question_mapping.csv
+│   │
+│   ├── ground_truth/
+│   │   └── cultural_ground_truth.csv
+│   │
+│   └── reviews/
+│       └── review_log.csv
+│
+├── evaluation/
+│   ├── model_responses/
+│   │   └── model_responses.csv
+│   │
+│   └── bias_analysis/
+│       └── bias_annotations.csv
+│
+├── docs/
+│   └── question_design_guidelines.md
+│
+└── README.md
+```
+
+## ⚙️ Methodology
+
+The planned research workflow includes:
+
+1. Dataset collection and organization
+2. Cultural identity verification
+3. Ground truth annotation
+4. Question-to-image mapping
+5. Pilot evaluation of selected VLMs
+6. Full model evaluation
+7. Human review and bias annotation
+8. Training-free mitigation experiments
+9. Comparative analysis and reporting
+
+## 📈 Evaluation
+
+Potential evaluation metrics include:
+
+- Object identification accuracy
+- Cultural factual accuracy
+- Cultural hallucination rate
+- Cultural misidentification rate
+- Western cultural substitution rate
+- Western cultural default rate
+- Appropriate uncertainty and abstention
+
+Final metrics and annotation criteria will be established after pilot evaluation.
+
+## 🛠️ Tools and Technologies
+
+- Python
+- Google Colab
+- Pandas
+- CSV / Excel
+- Git and GitHub
+- Vision-Language Models
+
+## 🚧 Project Status
+
+| Component | Status |
+|---|---|
+| Dataset collection | Completed provisionally |
+| 150 images collected | Completed |
+| Five categories established | Completed |
+| Unique image IDs | Completed |
+| Metadata structure | Created |
+| Question bank | Completed |
+| Cultural verification | In progress |
+| Ground truth annotation | Pending |
+| Pilot evaluation | Pending |
+| Full evaluation | Pending |
+| Bias analysis | Pending |
+
+## ⚠️ Data and Licensing
+
+Images may originate from different sources.
+
+Before public redistribution, image sources, attribution requirements, copyright, and licensing conditions must be reviewed.
+
+Publicly accessible images are not automatically free to redistribute.
+
+## 🤝 Contributions
+
+Contributions related to cultural verification, annotation, literature review, evaluation, and research methodology are welcome.
+
+All cultural claims should be supported by reliable evidence and documented sources.
+
+## 📚 References
+
+Relevant literature and benchmark comparisons will be added following the systematic literature review.
+
+## 📄 Citation
+
+Citation information will be provided after the research is published.
+
+## 📜 License
+
+Repository and dataset licensing will be specified after the source and redistribution audit.
+
+---
+
+**BanglaMaterial-Bench: Toward culturally grounded and reliable multimodal AI evaluation for Bangladesh.**
